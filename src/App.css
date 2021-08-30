@@ -1,53 +1,51 @@
 /* background logos */
+.App-logo{
+  position: absolute;
+  opacity: 0.1;
+}
+
 #app-logo1 {
   height: 40vmin;
-  position: absolute;
   right: 10vw;
   top: 2vh;
-  color: #282c34;
 }
 #app-logo2 {
   height: 30vmin;
-  position: absolute;
   right: 5vw;
   top: 35vh;
-  color: #282c34;
 }
 #app-logo3 {
   height: 30vmin;
-  position: absolute;
   right: 20vw;
   top: 50vh;
-  color: #282c34;
 }
 #app-logo4 {
   height: 15vmin;
-  position: absolute;
-  right: -5vw;
+  right: -6vw;
   top: 30vh;
-  color: #282c34;
+  clip: rect(auto, 115px, auto, auto);
 }
 #app-logo5 {
   height: 15vmin;
-  position: absolute;
-  right: -5vw;
+  right: -6vw;
   top: 45vh;
-  color: #282c34;
+  clip: rect(auto, 115px, auto, auto);
 }
 
 #app-logo6 {
   height: 15vmin;
-  position: absolute;
-  right: -5vw;
+  right: -6vw;
   top: 60vh;
-  color: #282c34;
+  clip: rect(auto, 115px, auto, auto);
 }
+
 
 /* header - blue bg-section */
 
 .App-header {
   background-color: #282c34;
   min-height: 70vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -56,9 +54,6 @@
 }
 
 
-h1 {
-  font-size: 6rem;
-}
 
 #main-div {
   padding-top: 20vh;
@@ -67,12 +62,20 @@ h1 {
   font-size: 1.2rem;
 }
 
+#main-div h1 {
+  line-height: 5rem;
+  font-size: 6rem;
+}
+
 #main-div p {
   width: 30vw;
+  margin: 3vh 0;
 }
 
 #main-div button {
+  margin: 3vh 0;
   padding: 15px 25px;
+  font-weight: 700;
 }
 
 
